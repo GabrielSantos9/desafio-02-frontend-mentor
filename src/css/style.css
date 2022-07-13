@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.main { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(242, 235, 227);
+}
+
+.image-product {
+    width: 280px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.image-product > .image {
+    width: 280px;
+    height: 420px;
+    display: flex;
+    position: relative;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.product-information {
+    width: 280px;
+    height: 420px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0px 12px 12px 0px;
+    cursor: default;
+}
+
+
+.product {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'montserrat', sans-serif;
+    
+    position: relative;
+    bottom: -8px;
+    color: hsl(228, 12%, 48%);
+    padding: 20px 26px;
+}
+
+.name-Product {
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'fraunces', sans-serif;
+    padding: 20px 26px;
+    position: relative;
+    color: black;
+    line-height: 1;
+    bottom: 10px;
+}
+
+.description {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'montserrat', sans-serif;
+    position: relative;
+    bottom: 25px;
+    line-height: 1.5em;
+    color: rgb(108, 114, 137);
+    padding: 20px 26px;
+}
+
+.precos {
+    bottom: 40px;
+    position: relative;
+    padding: 20px 26px;
+} 
+
+.preco-Present {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(60, 128, 103);
+    font-family: 'fraunces', sans-serif;
+}
+
+.preco-Old {
+    font-size: 0.8em;
+    position: relative;
+    top: -5px;
+    right: -15px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.button-add-to-cart {
+    padding: 5% 22%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    border-radius: 7px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    align-items: center;
+    bottom: 40px;
+    margin-right: auto;
+    flex-direction: row-reverse;
+
+}
+
+.fa-cart-shopping {
+    padding-right: 10px;
+}

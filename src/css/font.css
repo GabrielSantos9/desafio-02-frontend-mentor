@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../src/font/montserrat/Montserrat-VariableFont_wght.ttf');
+    src: url('../src/font/montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+    font-weight: 500, 700;
+}
+
+@font-face {
+    font-family: 'fraunces';
+    src: url('../src/font/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf');
+    src: url('../src/font/fraunces/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf');
+    font-weight: 500;
+}
